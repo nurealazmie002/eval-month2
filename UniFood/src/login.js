@@ -55,11 +55,7 @@ registerForm.addEventListener("submit",e => {
     registerMsg.textContent = "pendaftararn berhasil"
 
     
-    document.getElementById("logoutBtn").addEventListener("click", () => {
-        localStorage.removeItem("login")
-        localStorage.removeItem("user")
-        window.location.href = "login.html"
-    })
+    
 
     setTimeout(()=>{
         registerForm.classList.add("nyumput")
@@ -67,7 +63,15 @@ registerForm.addEventListener("submit",e => {
     },1000)
 })
 
+const logoutBtn = document.getElementById("logoutBtn")
+document.getElementById("logoutBtn").addEventListener("click", () => {
+        localStorage.removeItem("login")
+        localStorage.removeItem("user")
+        localStorage.removeItem("users")
+        window.location.href = "index.html"
 
+        
+    })
 
 showRegister.addEventListener("click", e => {
   e.preventDefault();

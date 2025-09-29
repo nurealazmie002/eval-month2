@@ -102,3 +102,49 @@ h1 {
 .meal-card a:hover {
   background: #e85c2f;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  #searchMeal {
+    width: 90%;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  #mealList {
+    grid-template-columns: 1fr; /* 1 kolom di layar kecil */
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .meal-card {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .meal-card h3 {
+    font-size: 16px;
+  }
+
+  .meal-card p {
+    font-size: 13px;
+  }
+
+  .meal-card li {
+    font-size: 12px;
+  }
+
+  .meal-card img {
+    max-height: 180px;
+  }
+
+  .meal-card a {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
