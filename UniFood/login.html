@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styleLogin.css">
+    <style>
+      .nyumput {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Selamat datang di UniFood</h1>
+    <form id="loginForm">
+      <input
+        type="text"
+        id="username"
+        placeholder="masukkan username"
+        required
+      >
+      <input
+        type="password"
+        id="password"
+        placeholder="masukkan password"
+        required
+      >
+      <button type="submit">Login</button>
+      <button id = "logoutBtn">logout</button>
+      <p id="msg"></p>
+      <p>Belum buat akun? <a href="#" id="showRegister">Buat dulu gih...</a></p>
+    </form>
+
+    <form id="registerForm" class="nyumput">
+      <h2>daftar yuk!!!</h2>
+      <input type="text" id="registUser" placeholder="username"  required >
+      <input type="password" id="registPass" placeholder="password"  required >
+      <button type="submit">Daftar...</button>
+      <p id="registerMsg"></p>
+      <a href="#" id="showLogin">Login disini</a>
+    </form>
+
+    <script src="./src/login.js"></script>
+  </body>
+</html>
