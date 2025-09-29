@@ -1,7 +1,7 @@
 link repo:https://github.com/nurealazmie002/eval-month2
 link vercel: https://eval-month2-yhsk.vercel.app/
 link slide: https://www.canva.com/design/DAG0Tx9CZ34/ATCYTiNF00pC9rqbMxH_MA/edit?utm_content=DAG0Tx9CZ34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
+link video: https://youtu.be/Q2MPeqLYJL4
 
 
 # UniFood Web App
